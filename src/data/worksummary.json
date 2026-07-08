@@ -1,0 +1,95 @@
+{
+  "$schema": "./worksummary.schema.json",
+  "generatedAt": "2026-07-08T14:00:00Z",
+  "source": "Linear (SaMMy team)",
+  "user": "poloko",
+  "totalCompleted": 49,
+  "dateRange": {
+    "from": "2025-12-20",
+    "to": "2026-07-03"
+  },
+  "projects": [
+    {
+      "name": "v1.1",
+      "completedIssues": 4,
+      "keyDeliverables": [
+        "Security & tenant-isolation hardening across auth, cache scoping, and debug endpoints",
+        "Performance optimization: aggregation pipelines, parallelized platform syncs, cache normalization",
+        "System-wide logging infrastructure for grepable, structured logs",
+        "Backend and frontend optimization for faster API response times"
+      ]
+    },
+    {
+      "name": "PostBank Final Release",
+      "completedIssues": 8,
+      "keyDeliverables": [
+        "X/Twitter OAuth migration from OAuth 1.0 to OAuth 2.0",
+        "AI spend optimization to stay within Google API monthly caps",
+        "Manual sentiment override system with preservation across reprocessing",
+        "Filter-responsive mention statistics dashboard",
+        "Opened/unopened mention tracking and attended/unattended comment records",
+        "Thread loading optimization through caching",
+        "Database backup/restore automation and off-server data management"
+      ]
+    },
+    {
+      "name": "PostBank Trial Version",
+      "completedIssues": 27,
+      "keyDeliverables": [
+        "AI sentiment analysis model fine-tuned for English + Sesotho code-switching",
+        "AI layer with endpoints for sentiment classification, reply suggestions, and negative-trend alerts",
+        "Multiplatform posting, scheduling, and recurring scheduling API",
+        "Feed view for mentions with reply interaction capabilities",
+        "LinkedIn video upload pipeline (Standard Tier API upgrade)",
+        "Mentions grouped by unread/new indicators and sentiment-based reporting",
+        "Privacy policy and terms of service pages",
+        "Sidebar UX rationalization and logo rebranding",
+        "Sentiment markers on mentions and comments for triage",
+        "Clickable sentiment feedback linking to filtered mentions",
+        "Search result filtering fix",
+        "Facebook comment deep link reconstruction using FBID",
+        "Expanded Facebook mention/comment coverage on LPB feeds",
+        "Sorting and filtering enhancements (intensity, date, platform)",
+        "Web search engine migration to Serper with AI triage",
+        "MailerSend email notification integration",
+        "AI analysis pipeline fix for mention and listening results",
+        "Meta App rate limit investigation and optimization",
+        "Sesotho sentiment benchmarking across frontier and lower-tier models",
+        "Cross-platform content length workaround for Twitter",
+        "Platform filtering fix under Web tab with Most Severe sort",
+        "Mentions update delay investigation and webhook-based sync",
+        "Feature parity between Web and Mentions filtering UIs"
+      ]
+    },
+    {
+      "name": "Other / Unassigned",
+      "completedIssues": 10,
+      "keyDeliverables": [
+        "LinkedIn hashtag rendering fix",
+        "TikTok platform filter removal when not enabled",
+        "Title bar UX improvement: logo + company name",
+        "Dev server deployment to Lando infrastructure",
+        "Railway MongoDB migration investigation",
+        "Multi-platform account following configuration (Facebook, LinkedIn, Instagram, Twitter)",
+        "LinkedIn mentions search investigation and documentation",
+        "V1.0 must-have feature porting to new API"
+      ]
+    }
+  ],
+  "skillsDemonstrated": [
+    "Full-stack development (Node.js, MongoDB, React)",
+    "AI/ML: Fine-tuning LLMs for low-resource language sentiment analysis (Sesotho)",
+    "System architecture: Multi-tenancy isolation, caching strategies, rate limiting",
+    "DevOps: Deployment, migration, backup automation, infrastructure management",
+    "API integration: Facebook, Instagram, LinkedIn, Twitter/X, Google AI, MailerSend, Serper",
+    "Performance optimization: Aggregation pipelines, parallel processing, cache normalization",
+    "UX/UI: Dashboard analytics, filtering, sorting, responsive design",
+    "Security: Authentication hardening, tenant data isolation, debug endpoint protection"
+  ],
+  "workTypes": {
+    "features": 11,
+    "improvements": 14,
+    "bugFixes": 8,
+    "other": 16
+  }
+}

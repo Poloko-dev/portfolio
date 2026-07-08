@@ -1,0 +1,78 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg: #0a0a0a;
+  --bg-alt: #111111;
+  --bg-hover: #1a1a1a;
+  --green: #00ff41;
+  --green-dim: #00cc33;
+  --orange: #ff6b35;
+  --orange-dim: #cc4400;
+  --amber: #ffb347;
+  --red: #ff3355;
+  --blue: #3b82f6;
+  --blue-dim: #1d4ed8;
+  --blue-glow: rgba(59, 130, 246, 0.15);
+  --cyan: #22d3ee;
+  --cyan-dim: #0891b2;
+  --white: #e8e8e8;
+  --gray: #888888;
+  --border: #222222;
+  --font-mono: 'Fira Code', 'Cascadia Code', 'Consolas', 'Courier New', monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+  background: var(--bg);
+}
+
+body {
+  font-family: var(--font-mono);
+  background: var(--bg);
+  color: var(--white);
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+  min-height: 100vh;
+}
+
+::selection {
+  background: rgba(59, 130, 246, 0.3);
+  color: var(--white);
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--orange);
+}
+
+a {
+  color: var(--blue);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+a:hover {
+  color: var(--cyan);
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}

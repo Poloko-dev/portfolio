@@ -1,0 +1,111 @@
+{
+  "personal": {
+    "name": "Poloko Nkolanyane",
+    "title": "AI Native Software Mid-level Engineer",
+    "tagline": "Architecture-First Engineer | AI Enthusiast | Engineering Residency Mentor",
+    "email": "polokonkolanyane92@gmail.com",
+    "github": "https://github.com/Poloko-dev",
+    "linkedin": "https://linkedin.com/in/poloko-nkolanyane-379925221",
+    "location": "Maseru, Lesotho",
+    "phone": ["+266 58777221", "+266 62033807"]
+  },
+  "about": {
+    "summary": "Backend-first Software Engineer specializing in scalable backend systems, API design, and software architecture. Experienced in Laravel, Express.js, Node.js, React, MySQL, and MongoDB, with hands-on experience building AI-powered applications and developing machine learning models using TensorFlow, PyTorch, and Scikit-learn. Skilled in data analytics, model development, and integrating intelligent systems into production applications. Adept at translating complex business requirements into maintainable, high-performance software while applying modern engineering practices and analytics-driven decision-making. Passionate about architecting reliable systems, leveraging AI to solve real-world problems, and continuously mastering emerging tools and frameworks."
+  },
+  "skills": [
+    {
+      "category": "Backend",
+      "items": ["Laravel", "Express.js", "REST APIs", "API Architecture"]
+    },
+    {
+      "category": "Frontend",
+      "items": ["React", "TypeScript", "vite"]
+    },
+    {
+      "category": "Databases",
+      "items": ["MongoDB", "SQL Server", "MySQL"]
+    },
+    {
+      "category": "AI & ML",
+      "items": ["Deep Learning", "Exploratory Data Analysis", "RAG Pipelines", "TensorFlow"]
+    },
+    {
+      "category": "Languages",
+      "items": ["TypeScript", "PHP", "Python", "C#", "C++"]
+    },
+    {
+      "category": "APIs",
+      "items": ["Meta Graph API", "LinkedIn API", "X API", "OpenAI API", "Gemini", "Stripe API", "Slack API"]
+    },
+    {
+      "category": "Tools",
+      "items": ["Git", "Docker", "Linux", "CI/CD", "Postman", "Slack", "Linear", "ClickUp"]
+    }
+  ],
+  "experience": [
+    {
+      "role": "Contractor Software Engineer",
+      "company": "Africa Code Foudry",
+      "location": "Hybrid (Remote & On-site)",
+      "period": "2025/Dec - Present",
+      "highlights": [
+        "Technical Lead for the development of industry grade SaMMy social media and mention management platform",
+        "Conducted in-person meetings with the clients to gather requirements and provide technical solutions.",
+        "Main DevOps engineer for SaMMy, responsible for CI/CD pipelines, containerization, and deployment strategies."
+      ]
+    },
+    {
+      "role": "Teaching Assistant",
+      "company": "Africa Code Academy",
+      "location": "Remote",
+      "period": "Jun/2026 - Present",
+      "highlights": [
+        "Mentor students in AI-Native software engineering.",
+        "Lead lessons (Effiecent Engineer and Clean Code) and provide guidance on best practices.",
+        "Project advisory and code review for student projects, ensuring adherence to software engineering principles."
+      ]
+    },
+    {
+      "role": "Software Engineer Intern",
+      "company": "Africa Code Academy",
+      "location": "Remote",
+      "period": "Jul/2025 - Nov/2025",
+      "highlights": [
+        "Lead and developed phase one of SaMMy a social media management platform using Next.js",
+        "Won the first prize in leadership and best technical capabilities during the internship program",
+        "Integrated X API, Linkedin API and Slack API for RAG pipelines and knowledge base."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "AI Tutoring Platform",
+      "tech": ["React", "Express.js", "MongoDB", "OpenAI"],
+      "description": "An intelligent tutoring system that adapts to student learning patterns using LLM-based feedback loops.",
+      "url": "#"
+    },
+    {
+      "title": "Analytics Dashboard",
+      "tech": ["Laravel", "MySQL", "Chart.js", "Redis"],
+      "description": "Real-time analytics dashboard for tracking student performance and engagement metrics across courses.",
+      "url": "#"
+    },
+    {
+      "title": "RAG Knowledge Base",
+      "tech": ["Python", "LangChain", "PostgreSQL", "OpenAI"],
+      "description": "Retrieval-augmented generation pipeline that enables semantic search over educational content.",
+      "url": "#"
+    },
+    {
+      "title": "E-Commerce Backend",
+      "tech": ["Express.js", "TypeScript", "SQL Server", "Redis"],
+      "description": "Scalable microservice backend handling inventory, orders, and payments with event-driven architecture.",
+      "url": "#"
+    }
+  ],
+  "terminal": {
+    "prompt": "visitor@portfolio:~$",
+    "bootMessage": "Loading portfolio kernel...",
+    "readyMessage": "System ready. Scroll to explore.\nType 'help' for commands — or just browse."
+  }
+}
