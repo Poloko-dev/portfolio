@@ -225,16 +225,14 @@
   width: 240px;
 }
 
-.about-image .terminal-image-crt {
+.about-image .terminal-image-container,
+.about-image .terminal-image-crt,
+.about-image .terminal-image-screen {
   width: 100%;
 }
 
 .about-image .terminal-image-screen {
   overflow: hidden;
-}
-
-.about-image .terminal-image-ascii {
-  font-size: 0.4rem;
 }
 
 .about-content {
@@ -257,7 +255,12 @@
     align-items: center;
   }
   .about-image {
-    width: 160px;
+    width: 100%;
+    max-width: 280px;
+  }
+  .about-image .terminal-image-ascii {
+    font-size: 0.35rem;
+    line-height: 0.55rem;
   }
   .about-content {
     padding-left: 0;

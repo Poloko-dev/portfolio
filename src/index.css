@@ -37,6 +37,9 @@ body {
   background: var(--bg);
   color: var(--white);
   line-height: 1.7;
+  text-align: justify;
+  overflow-wrap: break-word;
+  word-break: break-word;
   -webkit-font-smoothing: antialiased;
   min-height: 100vh;
 }
