@@ -10,7 +10,8 @@
     "phone": ["+266 58777221", "+266 62033807"]
   },
   "about": {
-    "summary": "Backend-first Software Engineer specializing in scalable backend systems, API design, and software architecture. Experienced in Laravel, Express.js, Node.js, React, MySQL, and MongoDB, with hands-on experience building AI-powered applications and developing machine learning models using TensorFlow, PyTorch, and Scikit-learn. Skilled in data analytics, model development, and integrating intelligent systems into production applications. Adept at translating complex business requirements into maintainable, high-performance software while applying modern engineering practices and analytics-driven decision-making. Passionate about architecting reliable systems, leveraging AI to solve real-world problems, and continuously mastering emerging tools and frameworks."
+    "summary": "Backend-first Software Engineer specializing in scalable backend systems, API design, and software architecture. Experienced in Laravel, Express.js, Node.js, React, MySQL, and MongoDB, with hands-on experience building AI-powered applications and developing machine learning models using TensorFlow, PyTorch, and Scikit-learn. Skilled in data analytics, model development, and integrating intelligent systems into production applications. Adept at translating complex business requirements into maintainable, high-performance software while applying modern engineering practices and analytics-driven decision-making. Passionate about architecting reliable systems, leveraging AI to solve real-world problems, and continuously mastering emerging tools and frameworks.",
+    "image": "/profile.jpg"
   },
   "skills": [
     {
@@ -82,13 +83,15 @@
       "title": "SaMMy Social Media Management and Mentions Platform",
       "tech": ["React", "Express.js", "MongoDB"],
       "description": "I am a Tech Lead and part of the team developing SaMMy, a social media management and mentions platform.",
-      "url": "https://sammycentral.com/"
+      "url": "https://sammycentral.com/",
+      "image": null
     },
     {
       "title": "Litsamaiso",
       "tech": ["React", "Express.js", "MongoDB"],
       "description": "I am part of the team and built API for an online platform that manages students financial accounts confirmations and elections for Institutions of Higher Learning.",
-      "url": "https://litsamaiso.vercel.app/"
+      "url": "https://litsamaiso.vercel.app/",
+      "image": null
     }
   ],
   "terminal": {

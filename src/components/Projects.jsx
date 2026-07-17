@@ -1,4 +1,5 @@
 import data from '../data/portfolio.json'
+import TerminalImage from './TerminalImage'
 
 export default function Projects() {
   return (
@@ -13,6 +14,14 @@ export default function Projects() {
       <div className="projects-grid">
         {data.projects.map((project, i) => (
           <div className="project-card" key={i}>
+            {project.image && (
+              <TerminalImage
+                src={project.image}
+                alt={project.title}
+                asciiWidth={60}
+                className="project-image"
+              />
+            )}
             <h3>{project.title}</h3>
             <div className="project-tech">
               {project.tech.map((t) => (

@@ -1,4 +1,5 @@
 import data from '../data/portfolio.json'
+import TerminalImage from './TerminalImage'
 
 export default function About() {
   const { personal, about } = data
@@ -12,11 +13,22 @@ export default function About() {
         <span className="timestamp">about</span>
       </div>
 
-      <div className="about-content">
-        <p>{about.summary}</p>
-        <p style={{ marginTop: '1rem', color: 'var(--gray)' }}>
-          {personal.location}
-        </p>
+      <div className="about-layout">
+        {about.image && (
+          <div className="about-image">
+            <TerminalImage
+              src={about.image}
+              alt={`${personal.name} profile`}
+              asciiWidth={80}
+            />
+          </div>
+        )}
+        <div className="about-content">
+          <p>{about.summary}</p>
+          <p style={{ marginTop: '1rem', color: 'var(--gray)' }}>
+            {personal.location}
+          </p>
+        </div>
       </div>
     </section>
   )
