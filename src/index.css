@@ -37,7 +37,7 @@ body {
   background: var(--bg);
   color: var(--white);
   line-height: 1.7;
-  text-align: justify;
+  text-align: left;
   overflow-wrap: break-word;
   word-break: break-word;
   -webkit-font-smoothing: antialiased;
